@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+aiofiles
+faster-whisper
+pydantic
+typing-extensions
+transformers>=4.44.0
+accelerate
+sentencepiece
+sentence-transformers>=2.6.0

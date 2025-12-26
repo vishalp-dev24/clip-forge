@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "audio_metadata": {
+      "type": "object",
+      "properties": {
+        "original_filename": {"type": "string"},
+        "duration_seconds": {"type": "number"},
+        "language": {"type": ["string", "null"]}
+      },
+      "required": ["original_filename"]
+    },
+    "model_info": {
+      "type": "object"
+    },
+    "sentences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "integer"},
+          "text": {"type": "string"},
+          "start": {"type": "number"},
+          "end": {"type": "number"}
+        },
+        "required": ["id", "text", "start", "end"]
+      }
+    }
+  }
+}

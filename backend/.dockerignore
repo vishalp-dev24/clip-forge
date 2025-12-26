@@ -1,0 +1,16 @@
+# Runtime
+runtime/
+
+# Git
+.git
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Local env
+.env
